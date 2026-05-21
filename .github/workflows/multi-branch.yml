@@ -1,11 +1,3 @@
-name: CD
-
-on:
-  workflow_run:
-    workflows: [CI]           # waits for CI to finish
-    branches: [main]          # only on main
-    types: [completed]
-
 name: Node CI/CD
 
 on:
