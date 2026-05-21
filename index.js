@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.json({
-    message: "🚀 Testing CI/CD Pipeline!",
+    message: "Testing CI/CD Pipeline from DEV branch!",
     status: "All systems operational",
     deployedAt: new Date().toISOString(),
   });
